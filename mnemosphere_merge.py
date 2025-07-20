@@ -1,4 +1,4 @@
-``python name=mnemosphere_merge.py
+```python name=mnemosphere_merge.py
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
