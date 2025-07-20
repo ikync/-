@@ -1,6 +1,7 @@
-import os
-import json
-import tempfile
+import sys, os
+# Гарантируем, что корень репозитория (cwd) в PYTHONPATH
+sys.path.insert(0, os.path.abspath(os.getcwd()))
+
 import pytest
 from merge_script import merge_directory
 
